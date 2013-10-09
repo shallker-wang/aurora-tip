@@ -7,6 +7,7 @@
   "dependencies": {},
   "development": {},
   "styles": [
-    "aurora-tip.css"
+    "aurora-tip.css",
+    "styles/aurora-tip.css"
   ]
 }

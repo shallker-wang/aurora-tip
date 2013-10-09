@@ -1,0 +1,37 @@
+.tip
+  place holder
+
+.tip-inner
+  border-radius 0
+  border 1px solid black
+  background-color white
+  color black
+  padding 8px 10px 7px 10px
+  text-align center
+  box-shadow 0 1px 2px 0px #AAA
+
+.tip-arrow
+  width 0
+  height 0
+  z-index 99999
+  position absolute
+  left 0
+  bottom 0
+  line-height 0
+  border-top 6px solid black
+  border-right 6px solid transparent
+  border-left 6px solid transparent
+
+  &:before
+    content ''
+    position absolute
+    display block
+    z-index 999
+    bottom 0
+    left -6px
+    margin-bottom 1px
+    width 0
+    height 0
+    border-top 6px solid white
+    border-right 6px solid transparent
+    border-left 6px solid transparent
