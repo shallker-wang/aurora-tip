@@ -8,6 +8,6 @@
   "development": {},
   "styles": [
     "aurora-tip.css",
-    "styles/aurora-tip.css"
+    "css/aurora-tip.css"
   ]
 }
